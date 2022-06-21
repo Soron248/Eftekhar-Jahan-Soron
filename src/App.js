@@ -16,6 +16,7 @@ function App() {
       <NavMenu/>
       <ScrollTop/>
       <Routes>
+        <Route  path="/Eftekhar-Jahan-Soron"   element={<Home />}     />
         <Route  exact path="/"   element={<Home />}     />
         <Route  path="/about"    element={<About />}    />
         <Route  path="/work"     element={<Work />}     />
