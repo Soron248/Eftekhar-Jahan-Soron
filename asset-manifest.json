@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Eftekhar-Jahan-Soron/static/css/main.b0ceb7cc.css",
-    "main.js": "/Eftekhar-Jahan-Soron/static/js/main.8a21e9ac.js",
+    "main.js": "/Eftekhar-Jahan-Soron/static/js/main.9b017c29.js",
     "static/media/srn3.jpg": "/Eftekhar-Jahan-Soron/static/media/srn3.4edca5aa221b9d3e8f1e.jpg",
     "static/media/res.png": "/Eftekhar-Jahan-Soron/static/media/res.279ec3b9837704f88b14.png",
     "static/media/srn1.jpg": "/Eftekhar-Jahan-Soron/static/media/srn1.3a902ee1a80a80d077b4.jpg",
@@ -17,10 +17,10 @@
     "static/media/color.png": "/Eftekhar-Jahan-Soron/static/media/color.8772860d40e33316001a.png",
     "index.html": "/Eftekhar-Jahan-Soron/index.html",
     "main.b0ceb7cc.css.map": "/Eftekhar-Jahan-Soron/static/css/main.b0ceb7cc.css.map",
-    "main.8a21e9ac.js.map": "/Eftekhar-Jahan-Soron/static/js/main.8a21e9ac.js.map"
+    "main.9b017c29.js.map": "/Eftekhar-Jahan-Soron/static/js/main.9b017c29.js.map"
   },
   "entrypoints": [
     "static/css/main.b0ceb7cc.css",
-    "static/js/main.8a21e9ac.js"
+    "static/js/main.9b017c29.js"
   ]
 }
