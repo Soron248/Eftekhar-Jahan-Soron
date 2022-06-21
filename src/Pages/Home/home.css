@@ -1,0 +1,60 @@
+.home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home img {
+  height: 400px;
+}
+.home p {
+  position: absolute;
+  writing-mode: vertical-lr;
+  right: 20px;
+  font-size: 12px;
+  background: none;
+}
+.home p span {
+  background: none;
+  letter-spacing: 15px;
+}
+.home p i {
+  margin: 12px auto;
+}
+.home p a {
+  text-decoration: none;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.home p a:hover {
+  color: #ff4c29;
+}
+.home h4 {
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.home h4 span {
+  color: #ff4c29;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home img {
+    height: 290px;
+  }
+  .home p {
+    font-size: 10px;
+    right: 10px;
+  }
+  .home h4 {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .home h4 span {
+    font-size: 20px;
+  }
+}

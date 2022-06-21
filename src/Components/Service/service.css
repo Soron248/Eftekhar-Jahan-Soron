@@ -1,0 +1,92 @@
+.srvc * {
+  background: none;
+}
+.srvc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.srvc h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background: url(../Service/back.png);
+  background-clip: text;
+  background-position: 0 0;
+  animation: back 8s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 1000px 0;
+  }
+}
+.srvc1 {
+  width: 1200px;
+  height: 300px;
+  margin-bottom: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.degn,
+.dev,
+.respncv {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.srvc1 i {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #ff4c29;
+}
+.srvc1 h3 {
+  font-size: 30px;
+  margin: 5px auto;
+  color: white;
+}
+.srvc1 p {
+  width: 300px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .srvc h1 {
+    font-size: 40px;
+  }
+  .srvc1 {
+    width: 400px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .degn,
+  .dev,
+  .respncv {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .srvc1 i {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .srvc1 h3 {
+    font-size: 25px;
+  }
+  .srvc1 p {
+    width: 290px;
+    word-spacing: 2px;
+    line-height: 23px;
+  }
+}

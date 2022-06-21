@@ -1,0 +1,99 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+}
+.nav ul {
+  text-align: center;
+  margin: 0 auto;
+}
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+.nav ul li a:hover {
+  border-bottom: 3px solid #ff4c29;
+}
+.nav ul li a:focus {
+  color: white;
+}
+.openMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  display: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  z-index: 80;
+}
+.openMenu i {
+  background: none;
+}
+.closeMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  display: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  z-index: 101;
+}
+.closeMenu i {
+  background: none;
+  color: #ff4c29;
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    position: unset;
+  }
+  .hideNav {
+    transform: translateY(-105%);
+    transition: 0.5s ease;
+  }
+  .openMenu {
+    display: block;
+  }
+  .closeMenu {
+    display: block;
+  }
+  .nav ul {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    top: 0;
+    margin: 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1e2b35;
+    transition: 0.5s ease;
+  }
+  .nav ul li {
+    background: none;
+    margin: 5px auto;
+  }
+  .nav ul li a {
+    font-size: 18px;
+    background: none;
+  }
+}
