@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Eftekhar-Jahan-Soron/static/css/main.b0ceb7cc.css",
+    "main.js": "/Eftekhar-Jahan-Soron/static/js/main.8a21e9ac.js",
+    "static/media/srn3.jpg": "/Eftekhar-Jahan-Soron/static/media/srn3.4edca5aa221b9d3e8f1e.jpg",
+    "static/media/res.png": "/Eftekhar-Jahan-Soron/static/media/res.279ec3b9837704f88b14.png",
+    "static/media/srn1.jpg": "/Eftekhar-Jahan-Soron/static/media/srn1.3a902ee1a80a80d077b4.jpg",
+    "static/media/srn2.jpg": "/Eftekhar-Jahan-Soron/static/media/srn2.2cb58fdaf439d160f299.jpg",
+    "static/media/map - Copy.png": "/Eftekhar-Jahan-Soron/static/media/map - Copy.2fb325f6b67356e2281b.png",
+    "static/media/ecom.png": "/Eftekhar-Jahan-Soron/static/media/ecom.768b40f7d68e4536b335.png",
+    "static/media/srn.png": "/Eftekhar-Jahan-Soron/static/media/srn.b8330640eac56b4267b5.png",
+    "static/media/watch.png": "/Eftekhar-Jahan-Soron/static/media/watch.3a8ffdd54ff67aa2ee5a.png",
+    "static/media/crud.png": "/Eftekhar-Jahan-Soron/static/media/crud.b0f13f3cb1c9b2fa7005.png",
+    "static/media/drum.png": "/Eftekhar-Jahan-Soron/static/media/drum.be311f6bb6b2163e24c9.png",
+    "static/media/logreg.png": "/Eftekhar-Jahan-Soron/static/media/logreg.c52b5a43926bc1adee7b.png",
+    "static/media/todo.png": "/Eftekhar-Jahan-Soron/static/media/todo.bc38fc1818908ca0f819.png",
+    "static/media/color.png": "/Eftekhar-Jahan-Soron/static/media/color.8772860d40e33316001a.png",
+    "index.html": "/Eftekhar-Jahan-Soron/index.html",
+    "main.b0ceb7cc.css.map": "/Eftekhar-Jahan-Soron/static/css/main.b0ceb7cc.css.map",
+    "main.8a21e9ac.js.map": "/Eftekhar-Jahan-Soron/static/js/main.8a21e9ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0ceb7cc.css",
+    "static/js/main.8a21e9ac.js"
+  ]
+}
